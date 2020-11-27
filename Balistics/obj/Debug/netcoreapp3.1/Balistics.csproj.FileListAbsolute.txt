@@ -1,0 +1,13 @@
+C:\Users\glebo\source\repos\Balistics\Balistics\bin\Debug\netcoreapp3.1\Balistics.exe
+C:\Users\glebo\source\repos\Balistics\Balistics\bin\Debug\netcoreapp3.1\Balistics.deps.json
+C:\Users\glebo\source\repos\Balistics\Balistics\bin\Debug\netcoreapp3.1\Balistics.runtimeconfig.json
+C:\Users\glebo\source\repos\Balistics\Balistics\bin\Debug\netcoreapp3.1\Balistics.runtimeconfig.dev.json
+C:\Users\glebo\source\repos\Balistics\Balistics\bin\Debug\netcoreapp3.1\Balistics.dll
+C:\Users\glebo\source\repos\Balistics\Balistics\bin\Debug\netcoreapp3.1\Balistics.pdb
+C:\Users\glebo\source\repos\Balistics\Balistics\obj\Debug\netcoreapp3.1\Balistics.csprojAssemblyReference.cache
+C:\Users\glebo\source\repos\Balistics\Balistics\obj\Debug\netcoreapp3.1\Balistics.AssemblyInfoInputs.cache
+C:\Users\glebo\source\repos\Balistics\Balistics\obj\Debug\netcoreapp3.1\Balistics.AssemblyInfo.cs
+C:\Users\glebo\source\repos\Balistics\Balistics\obj\Debug\netcoreapp3.1\Balistics.csproj.CoreCompileInputs.cache
+C:\Users\glebo\source\repos\Balistics\Balistics\obj\Debug\netcoreapp3.1\Balistics.dll
+C:\Users\glebo\source\repos\Balistics\Balistics\obj\Debug\netcoreapp3.1\Balistics.pdb
+C:\Users\glebo\source\repos\Balistics\Balistics\obj\Debug\netcoreapp3.1\Balistics.genruntimeconfig.cache
