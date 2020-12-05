@@ -25,8 +25,8 @@ namespace Balistics
             {
                 if(DeltaTime(StartTime) % 1/60 == 0)
                 {
-                    Vx -= Math.Sin(DownForce) + Math.Cos(BackForce);
-                    Vy -= Math.Cos(DownForce) + Math.Sin(BackForce);
+                    Vx -= Math.Sin(vector.Angle())*DownForce + Math.Cos(vector.Angle()) * BackForce;
+                    Vy -= Math.Cos(vector.Angle()) * DownForce + Math.Sin(vector.Angle()) * BackForce;
                     vector.x += Vx * DeltaTime(StartTime);
                     vector.y += Vy * DeltaTime(StartTime);
 
