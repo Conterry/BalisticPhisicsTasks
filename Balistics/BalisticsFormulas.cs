@@ -16,9 +16,9 @@ namespace Balistics
         public static double HighLength(double V, double alfa)
             => V * V * Math.Sin(2 * alfa) / 10;
 
-        public static double MomentHight(double V, double alfa, int DeltaTime)
+        public static double MomentHight(double V, double alfa, double DeltaTime)
         {
-            return V * Math.Cos(alfa)+10 * DeltaTime;
+            return V * Math.Sin(alfa)+10 * DeltaTime;
         }
     }
 }

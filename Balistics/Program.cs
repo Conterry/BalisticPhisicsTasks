@@ -20,11 +20,10 @@ namespace Balistics
 
             while (Status)
             {
-                if(DeltaTime(StartTime) == 1)
+                if(DeltaTime(StartTime) == 1/60)
                 {
-                    High = BalisticsFormulas.MomentHight(V, vector.Angle(), DeltaTime(StartTime));
-                    Console.WriteLine(High);
-                    StartTime = DateTime.Now;
+                    vector.x += V * DeltaTime(StartTime);
+                    V -= 0.95;
                 }
                 /*if(High == 0)
                 {
@@ -33,7 +32,7 @@ namespace Balistics
             }
         }   
         
-        public static int DeltaTime(DateTime StartTime) => DateTime.Now.Second - StartTime.Second;
+        public static double DeltaTime(DateTime StartTime) => DateTime.Now.Second - StartTime.Second;
 
     }
 
