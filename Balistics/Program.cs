@@ -22,8 +22,9 @@ namespace Balistics
             {
                 if(DeltaTime(StartTime) == 1/60)
                 {
-                    vector.x += V * DeltaTime(StartTime);
+                    vector.x += Math.Cos(V * DeltaTime(StartTime));
                     V -= 0.95;
+                    Console.WriteLine(vector.x);
                 }
                 /*if(High == 0)
                 {
