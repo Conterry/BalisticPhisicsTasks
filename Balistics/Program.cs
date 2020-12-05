@@ -33,10 +33,10 @@ namespace Balistics
                     Console.WriteLine(vector.x);
                     Console.WriteLine(vector.y);
                 }
-                /*if(High == 0)
+                if(vector.y == 0)
                 {
                     Status = false;
-                }*/
+                }
             }
         }   
         
