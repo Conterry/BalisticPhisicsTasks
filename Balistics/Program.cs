@@ -11,8 +11,10 @@ namespace Balistics
             double X = double.Parse(Console.ReadLine());
             double Y = double.Parse(Console.ReadLine());
             bool Status = true;
+            double BackForce = 0.95, DownForce = 9.8;
             Vector vector = new Vector(X, Y);
             double High = 1;
+            double Vx = V;
 
             Console.WriteLine(BalisticsFormulas.TimeMax(V, vector.Angle()));
             Console.WriteLine(BalisticsFormulas.HighHight(V, vector.Angle()));
@@ -22,8 +24,9 @@ namespace Balistics
             {
                 if(DeltaTime(StartTime) == 1/60)
                 {
-                    vector.x += Math.Cos(V * DeltaTime(StartTime));
-                    V -= 0.95;
+                    vector.x += Math.Cos(Vx) * DeltaTime(StartTime);
+                    Vx -= Math.Sin(DownForce) + Math.Cos(BackForce);
+
                     Console.WriteLine(vector.x);
                 }
                 /*if(High == 0)
